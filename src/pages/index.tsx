@@ -22,12 +22,10 @@ export default function CS4401() {
 
 			<hr className="separation" />
 			<div className="centered">
-				{"Lecture notes ka link... Baad me may directly fetch using MS graph APIs, bas mai kaam ka cheez nhi dhundh paya :D"}
+				{"Lecture notes ka link... [IN DEVELOPMENT] Baad me may directly fetch using MS graph APIs, bas abhi pata nahi hai :D"}
 			</div>
 			<hr className="separation" />
 			<br />
-			<div className="container">
-			</div>
 			<Footer msg="" />
 		</>
 	);
