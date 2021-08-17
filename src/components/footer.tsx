@@ -16,10 +16,10 @@ export default function NavBar(props: FooterProps) {
 	];
 
 	const lab_links = [
-		["CSL5401","https://patnanit.sharepoint.com/sites/July_2021_CSL5401DatabaseManagementSystemsLab/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fsites%2FJuly%5F2021%5FCSL5401DatabaseManagementSystemsLab%2FShared%20Documents%2FGeneral&FolderCTID=0x012000F222092D50505D47BD65019273A2B56B"]
-		["CSL5402","https://patnanit.sharepoint.com/sites/July_2021_CSL5402ArtificialIntelligenceLab/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fsites%2FJuly%5F2021%5FCSL5402ArtificialIntelligenceLab%2FShared%20Documents%2FGeneral&FolderCTID=0x012000F222092D50505D47BD65019273A2B56B"]
-		["CSL5403","https://patnanit.sharepoint.com/sites/July_2021_CSL5403ComputerNetworkslab/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fsites%2FJuly%5F2021%5FCSL5403ComputerNetworkslab%2FShared%20Documents%2FGeneral&FolderCTID=0x012000F222092D50505D47BD65019273A2B56B"]
-		["CSL5404","https://patnanit.sharepoint.com/sites/July_2021_CSL5404CompilerDesignLab/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fsites%2FJuly%5F2021%5FCSL5404CompilerDesignLab%2FShared%20Documents%2FGeneral&FolderCTID=0x012000F222092D50505D47BD65019273A2B56B"]
+		["CSL5401","https://patnanit.sharepoint.com/sites/July_2021_CSL5401DatabaseManagementSystemsLab/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fsites%2FJuly%5F2021%5FCSL5401DatabaseManagementSystemsLab%2FShared%20Documents%2FGeneral&FolderCTID=0x012000F222092D50505D47BD65019273A2B56B"],
+		["CSL5402","https://patnanit.sharepoint.com/sites/July_2021_CSL5402ArtificialIntelligenceLab/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fsites%2FJuly%5F2021%5FCSL5402ArtificialIntelligenceLab%2FShared%20Documents%2FGeneral&FolderCTID=0x012000F222092D50505D47BD65019273A2B56B"],
+		["CSL5403","https://patnanit.sharepoint.com/sites/July_2021_CSL5403ComputerNetworkslab/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fsites%2FJuly%5F2021%5FCSL5403ComputerNetworkslab%2FShared%20Documents%2FGeneral&FolderCTID=0x012000F222092D50505D47BD65019273A2B56B"],
+		["CSL5404","https://patnanit.sharepoint.com/sites/July_2021_CSL5404CompilerDesignLab/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fsites%2FJuly%5F2021%5FCSL5404CompilerDesignLab%2FShared%20Documents%2FGeneral&FolderCTID=0x012000F222092D50505D47BD65019273A2B56B"],
 	];
 
 	return (
