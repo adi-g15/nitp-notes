@@ -1,12 +1,25 @@
 import React from 'react';
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
+import LinkBtn from "../components/link_btn";
 import "../styles/global.css";
 
-import dayjs from "dayjs";
 import Helmet from "react-helmet";
 
-export default function CS4401() {
+export default function NITPNotes() {
+	// Bas inko edit karna hai
+	const theory_links = [
+		["CS6401 (Graphics)","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CS6401ComputerGraphhics/Shared%20Documents/General?csf=1&web=1&e=iaupUT"],
+		["CS6402 (Software Eng.)","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CS6402SoftwareEngineering/Shared%20Documents/General?csf=1&web=1&e=EKKWpe"],
+		["CS6403 (Data Mining)","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CS6403DataMiningWarehousing/Shared%20Documents/General?csf=1&web=1&e=SMzocO"],
+		["CS6404 (Information Security)","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CS6404InformationSecurity/Shared%20Documents/General?csf=1&web=1&e=HRoDvd"],
+	];
+
+	const lab_links = [
+		["CSL6401","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CSL6401CGLab/Shared%20Documents/General?csf=1&web=1&e=2LW1ht"],
+		["CSL6402","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CSL6402SELab/Shared%20Documents/General?csf=1&web=1&e=A9V44I"],
+	];
+
 	return (
 		<>
 			<div className="application">
@@ -26,6 +39,23 @@ export default function CS4401() {
 			</div>
 			<hr className="separation" />
 			<br />
+			<div className="centered">
+				<div style={{padding: '5px', fontSize: 'large'}}>
+				{
+					theory_links.map(p => (
+						<LinkBtn name={p[0]} link={p[1]} />
+					))
+				}
+				</div>
+				<hr style={{width: '60%'}} />
+				<div style={{padding: '5px', fontSize: 'large'}}>
+				{
+					lab_links.map(p => (
+						<LinkBtn name={p[0]} link={p[1]} />
+					))
+				}
+				</div>
+			</div>
 			<Footer msg="" />
 		</>
 	);

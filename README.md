@@ -6,9 +6,9 @@ For and By the NITP 2k19-23 batch.
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/adi-g15/nitp-notes)
 
-Provides decrypted lecture notes, download and read, no need to always enter password.
+Provides easier access to notes of all courses this semester.
 
-> See the `src/pages/index.tsx` file for code, it is the main code for the page you see at https://cs4401.netlify.app
+> See the `src/pages/index.tsx` file for code, it is simple code for the page you see at https://nitp-notes.netlify.app
 
 There are in-code comments, for any further issue/\`any\` doubt, raise an issue here or dm.
 
