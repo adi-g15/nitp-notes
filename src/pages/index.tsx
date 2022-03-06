@@ -10,14 +10,14 @@ export default function NITPNotes() {
 	// Bas inko edit karna hai
 	const theory_links = [
 		["CS6401 (Graphics)","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CS6401ComputerGraphhics/Shared%20Documents/General?csf=1&web=1&e=iaupUT"],
-		["CS6402 (Software Eng.)","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CS6402SoftwareEngineering/Shared%20Documents/General?csf=1&web=1&e=EKKWpe"],
+		["CS6402 (Software Eng.)","https://patnanit.sharepoint.com/sites/Jan_2022_CS6402SoftwareEngineering/Class%20Materials/Forms/AllItems.aspx"],
 		["CS6403 (Data Mining)","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CS6403DataMiningWarehousing/Shared%20Documents/General?csf=1&web=1&e=SMzocO"],
 		["CS6404 (Information Security)","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CS6404InformationSecurity/Shared%20Documents/General?csf=1&web=1&e=HRoDvd"],
 		["CS6475 (Blockchain Technology)","https://patnanit.sharepoint.com/sites/Jan_2022_CS6475BlockchainTechnology/Shared%20Documents/General,
 	];
 
 	const lab_links = [
-		["CSL6401","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CSL6401CGLab/Shared%20Documents/General?csf=1&web=1&e=2LW1ht"],
+		["CSL6401","https://patnanit.sharepoint.com/sites/Jan_2022_CSL6401CGLab/Class%20Materials/Forms/AllItems.aspx"],
 		["CSL6402","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CSL6402SELab/Shared%20Documents/General?csf=1&web=1&e=A9V44I"],
 	];
 
