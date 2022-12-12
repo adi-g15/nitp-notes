@@ -13,7 +13,7 @@ export default function NITPNotes() {
 		["CS6402 (Software Eng.)","https://patnanit.sharepoint.com/sites/Jan_2022_CS6402SoftwareEngineering/Class%20Materials/Forms/AllItems.aspx"],
 		["CS6403 (Data Mining)","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CS6403DataMiningWarehousing/Shared%20Documents/General?csf=1&web=1&e=SMzocO"],
 		["CS6404 (Information Security)","https://patnanit.sharepoint.com/:f:/r/sites/Jan_2022_CS6404InformationSecurity/Shared%20Documents/General?csf=1&web=1&e=HRoDvd"],
-		["CS6475 (Blockchain Technology)","https://patnanit.sharepoint.com/sites/Jan_2022_CS6475BlockchainTechnology/Shared%20Documents/General",
+		["CS6475 (Blockchain Technology)","https://patnanit.sharepoint.com/sites/Jan_2022_CS6475BlockchainTechnology/Shared%20Documents/General"],
 	];
 
 	const lab_links = [
